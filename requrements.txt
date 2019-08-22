@@ -1,0 +1,8 @@
+numpy
+networkx
+scipy
+gensim
+scikit-learn
+tqdm
+keras
+tensorflow
