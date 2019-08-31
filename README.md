@@ -1,6 +1,17 @@
 # HPHG
 
-This is an implementation of "Hyper-Path-Based Representation Learning for Hyper-Networks" (CIKM 2019).
+The code and data for CIKM '19 paper "[Hyper-Path-Based Representation Learning for Hyper-Networks](<https://arxiv.org/abs/1908.09152>)".
+
+Readers are welcomed to star/fork this repository to reproduce the experiments and train your own model. If you find this code useful, please kindly cite our paper:
+
+```
+@inproceedings{huang2019hyper,
+  title={Hyper-Path-Based Representation Learning for Hyper-Networks},
+  author={Huang, Jie and Liu, Xin and Song, Yangqiu},
+  booktitle={CIKM},
+  year={2019}
+}
+```
 
 
 
@@ -78,10 +89,12 @@ where dim1, ... , dimd is the *d*-dimensional representation learned by *HPHG* o
 
 
 
-**Attention**: 
+### Misc
 
 - Please store the edgelist file in `graph/<dataset>/*` and store the embedding file in `emb/<dataset>/*`.
-- This implementation only applied to 3-uniform heterogeneous hyper-networks, if you need a compatible version or have any question, feel free to contact us.
+- This implementation is only applied to 3-uniform heterogeneous hyper-networks, if you have any question or need a compatible version, you are welcome to open an issue or send me an email.
+
+
 
 
 
